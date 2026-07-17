@@ -2,10 +2,10 @@ from site_scons.site_tools.NVDATool.typings import AddonInfo, BrailleTables, Sym
 from site_scons.site_tools.NVDATool.utils import _
 
 addon_info = AddonInfo(
-	addon_name="2factorAuthenticator",
-	addon_summary=_("2 Factor Authenticator"),
+	addon_name="2FactorAuthenticator",
+	addon_summary=_("2Factor Authenticator"),
 	addon_description=_("Generates 2FA TOTP codes quickly via a shortcut key and copies them to the clipboard."),
-	addon_version="1.1",
+	addon_version="1.2",
 	addon_changelog=_("Initial release with 2FA manager in Tools menu and hotkey NVDA+Ctrl+2."),
 	addon_author="Umesh Rathore <umeshrathore897@gmail.com>",
 	addon_url="https://github.com/umesh-rathore2932/2factorAuthenticator",	addon_sourceURL="https://github.com/umeshrathore/2factorAuthenticator",
